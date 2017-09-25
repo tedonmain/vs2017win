@@ -85,7 +85,7 @@ namespace packt_webapp
 
             AutoMapper.Mapper.Initialize(mapper => { mapper.CreateMap<Customer, CustomerDto>().ReverseMap(); });
 
-            //app.AddSeedData();
+            app.AddSeedData();
 
             app.UseMvc();
 
